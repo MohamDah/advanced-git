@@ -21,7 +21,26 @@ git rebase -i --root
 
 ## 4. Splitting a Commit:
 ```bash
-git log
+git reset HEAD~
+git add test3.md 
+git commit -m "Create third file"
+git add test4.md 
+git commit -m "Create fourth file"
+```
+
+## 5. Advanced Squashing:
+```bash
+git rebase -i --root
+```
+
+## 6. Dropping a Commit:
+```bash
+git rebase -i HEAD~2
+```
+
+## 7. Reordering Commits:
+```bash
+git rebase -i --root
 ```
 
 ## 8. Cherry-Picking Commits:
