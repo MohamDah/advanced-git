@@ -9,6 +9,11 @@ git add test4.md
 git commit --amend --no-edit
 ```
 
+## 2. Editing Commit History:
+```bash
+git rebase -i HEAD~2
+```
+
 ## 8. Cherry-Picking Commits:
 ```bash
 git branch ft/branch
