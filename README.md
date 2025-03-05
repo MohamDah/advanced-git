@@ -14,6 +14,16 @@ git commit --amend --no-edit
 git rebase -i HEAD~2
 ```
 
+## 3. Keeping History Tidy - Squashing Commits:
+```bash
+git rebase -i --root
+```
+
+## 4. Splitting a Commit:
+```bash
+git log
+```
+
 ## 8. Cherry-Picking Commits:
 ```bash
 git branch ft/branch
